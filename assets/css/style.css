@@ -886,11 +886,10 @@ section {
   font-size: 14px;
   font-weight: 600;
   line-height: 1;
-  text-transform: uppercase;
   color: #444444;
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
-  border-radius: 3px;
+  border-radius: 20px;
 }
 
 .portfolio #portfolio-flters li:hover,
@@ -1467,7 +1466,7 @@ section {
 .contact .email-form button[type=submit] {
   background: #ff8800;
   border: 0;
-  padding: 10px 32px;
+  padding: 6px 60px;
   color: #fff;
   transition: 0.4s;
   border-radius: 30px;
