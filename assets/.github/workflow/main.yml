@@ -13,4 +13,4 @@ name: Deploy via ftp
               host: ${{ secretsHOST }} 
               user: ${{ secretsUSER }}
               password: ${{ secretsPASS }}
-              localDir: "/home/guimaraessantos2/"
+              localDir: /coriolanoguimaraes/guimaraessantos
