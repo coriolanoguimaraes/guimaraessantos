@@ -13,5 +13,5 @@ jobs:
         host: ${{ secretsHOST }} 
         user: ${{ secretsUSER }}
         password: ${{ secretsPASS }}
-        localDir: /coriolanoguimaraes/guimaraessantos
-        remoteDir: /
+        localDir: https://github.com/coriolanoguimaraes/guimaraessantos.git
+        remoteDir: public_html
