@@ -13,4 +13,4 @@ jobs:
         host: ${{ secrets_HOST }} 
         user: ${{ secrets_USER }}
         password: ${{ secrets_PASS }}
-        localDir: public_html
+        localDir: public_html/
