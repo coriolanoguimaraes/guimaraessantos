@@ -13,5 +13,4 @@ jobs:
         host: ftp.guimaraessantos.com.br
         user: guimaraessantos2
         password: Guimaraes@2024
-        localDir: https://github.com/coriolanoguimaraes/guimaraessantos.git
-        remoteDir: public_html
+        localDir: /
