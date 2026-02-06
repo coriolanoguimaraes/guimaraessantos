@@ -17,3 +17,4 @@ jobs:
         server: ${{ secrets.SECRETSHOST }}
         username: guimaraessantos2
         password: Guimaraes@2024
+        server-dir: /public_html/
