@@ -1,4 +1,7 @@
-on: push:
+on: 
+	push:
+		branches:
+			- main
 name: 🚀 Deploy website on push
 jobs:
   web-deploy:
@@ -11,6 +14,7 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@v4.3.6
       with:
-        server: ${{ secrets.SECRETSHOST }}
+        server: ftp.guimaraessantos.com.br
         username: guimaraessantos2
         password: Guimaraes@2024
+        server-dir: public_html/
